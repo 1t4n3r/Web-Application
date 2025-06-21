@@ -161,6 +161,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    color: #161C2D;
 }
 
 .features_item_text h3 {
@@ -203,12 +204,14 @@ body {
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
+    color: #161C2D;
 }
 
 .dashboard_description {
     font-size: 19px;
     opacity: 70%;
     line-height: 32px;
+    color: #161C2D;
 }
 
 .dashboard_button {
@@ -242,6 +245,7 @@ body {
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
+    color: #161C2D;
 }
 
 .statistic_description {
@@ -249,6 +253,7 @@ body {
     opacity: 70%;
     line-height: 32px;
     letter-spacing: -0.2px;
+    color: #161C2D;
 }
 
 .statistic_button {
@@ -286,12 +291,14 @@ body {
     font-size: 36px;
     letter-spacing: -1.2px;
     line-height: 48px;
+    color: #161C2D;
 }
 
 .cta_description {
     font-size: 19px;
     line-height: 32px;
     letter-spacing: -0.2px;
+    color: #161C2D;
 }
 
 .cta_button {
@@ -308,23 +315,132 @@ body {
 
 .pricing_reviews_background {
     background-color: #ECF2F7;
+    padding: 100px 0 120px 0;
 }
 
 .pricing {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
 }
 
 .pricing_title {
-
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+    color: #161C2D;
 }
 
 .pricing_description {
-
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+    text-align: center;
+    color: #161C2D;
 }
 
 .pricing_duration {
-
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    gap: 16px;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #161C2D;
 }
+
+.pricing_plans {
+    display: flex;
+    gap: 31px;
+}
+
+.plan {
+    padding: 37px 49px 38px 49px;
+    width: 349px;
+    height: 604px;
+    background-color: #FFFFFF;
+    border: 1px #E7E9ED solid;
+    border-radius: 10px;
+}
+
+.plan_type {
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1.63px;
+    color: #473BF0;
+    padding-bottom: 40px;
+}
+
+.plan_price {
+    display: flex;
+    align-items: baseline;
+    gap: 11px;
+    color: #161C2D;
+}
+
+.price {
+    display: flex;
+    align-items: baseline;
+    font-weight: bold;
+    letter-spacing: -0.48px;
+    color: #161C2D;
+}
+
+.price_usd {
+    font-size: 24px;
+}
+
+.price_amount {
+    font-size: 60px;
+}
+
+.price_per_duration {
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: -0.09px;
+    font-weight: normal;
+}
+
+.plan_billed {
+    padding-bottom: 38px;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 70%;
+}
+
+.plan_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.plan_menu li {
+    list-style: none;
+    display: flex;
+    gap: 11px;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+}
+
+.plan_menu_no {
+    padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
