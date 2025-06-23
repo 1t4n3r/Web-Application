@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link href="https://gistcdn.githack.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css" rel="stylesheet">
 </head>
 <body>
@@ -129,18 +129,24 @@
                 <div class="pricing_plans">
                     <div class="plan">
                         <h3 class="plan_type">STARTER</h3>
-                        <p class="plan_usd">$</p>
-                        <p class="plan_price">19</p>
-                        <p class="plan_per_duration">/ month</p>
-                        <p class="billed">billed monthly</p>
+                        <div class="plan_price">
+                            <div class="price">
+                                <p class="price_usd">$</p>
+                                <p class="price_amount">19</p>
+                            </div>
+                            <div>
+                                <p class="price_per_duration">/ month</p>
+                            </div>
+                        </div>
+                        <p class="plan_billed">billed monthly</p>
                         <ul class="plan_menu">
                             <li><img src="images/Path.svg" alt=""><p>Commercial License</p></li>
                             <li><img src="images/Path.svg" alt=""><p>100+ HTML UI Elements</p></li>
                             <li><img src="images/Path.svg" alt=""><p>01 Domain Support</p></li>
-                            <li><img src="images/small-remove.svg" alt=""><p>6 Month Premium Support</p></li>
-                            <li><img src="images/small-remove.svg" alt=""><p>Lifetime Updates</p></li>
+                            <li><img src="images/small-remove.svg" alt=""><p class="plan_menu_no">6 Month Premium Support</p></li>
+                            <li><img src="images/small-remove.svg" alt=""><p class="plan_menu_no">Lifetime Updates</p></li>
                         </ul>
-                        <a href="#" class="plan_button_1">
+                        <a href="#" class="plan_button">
                             <p>Start Free Trial</p>
                             <img src="images/tail-right-1.svg" alt="">
                         </a>
@@ -148,16 +154,22 @@
                     </div>
                     <div class="plan">
                         <h3 class="plan_type">STANDARD</h3>
-                        <p class="plan_usd">$</p>
-                        <p class="plan_price">49</p>
-                        <p class="plan_per_duration">/ month</p>
-                        <p class="billed">billed monthly</p>
+                        <div class="plan_price">
+                            <div class="price">
+                                <p class="price_usd">$</p>
+                                <p class="price_amount">49</p>
+                            </div>
+                            <div>
+                                <p class="price_per_duration">/ month</p>
+                            </div>
+                        </div>
+                        <p class="plan_billed">billed monthly</p>
                         <ul class="plan_menu">
                             <li><img src="images/Path.svg" alt=""><p>Commercial License</p></li>
                             <li><img src="images/Path.svg" alt=""><p>100+ HTML UI Elements</p></li>
                             <li><img src="images/Path.svg" alt=""><p>01 Domain Support</p></li>
                             <li><img src="images/Path.svg" alt=""><p>6 Month Premium Support</p></li>
-                            <li><img src="images/small-remove.svg" alt=""><p>Lifetime Updates</p></li>
+                            <li><img src="images/small-remove.svg" alt=""><p class="plan_menu_no">Lifetime Updates</p></li>
                         </ul>
                         <a href="#" class="plan_button_1">
                             <p>Start Free Trial</p>
@@ -167,18 +179,24 @@
                     </div>
                     <div class="plan">
                         <h3 class="plan_type">PREMIUM</h3>
-                        <p class="plan_usd">$</p>
-                        <p class="plan_price">99</p>
-                        <p class="plan_per_duration">/ month</p>
-                        <p class="billed">billed monthly</p>
+                        <div class="plan_price">
+                            <div class="price">
+                                <p class="price_usd">$</p>
+                                <p class="price_amount">99</p>
+                            </div>
+                            <div>
+                                <p class="price_per_duration">/ month</p>
+                            </div>
+                        </div>
+                        <p class="plan_billed">billed monthly</p>
                         <ul class="plan_menu">
                             <li><img src="images/Path.svg" alt=""><p>Commercial License</p></li>
                             <li><img src="images/Path.svg" alt=""><p>100+ HTML UI Elements</p></li>
                             <li><img src="images/Path.svg" alt=""><p>01 Domain Support</p></li>
-                            <li><img src="images/small-remove.svg" alt=""><p>6 Month Premium Support</p></li>
-                            <li><img src="images/small-remove.svg" alt=""><p>Lifetime Updates</p></li>
+                            <li><img src="images/Path.svg" alt=""><p>6 Month Premium Support</p></li>
+                            <li><img src="images/Path.svg" alt=""><p>Lifetime Updates</p></li>
                         </ul>
-                        <a href="#" class="plan_button_1">
+                        <a href="#" class="plan_button">
                             <p>Start Free Trial</p>
                             <img src="images/tail-right-1.svg" alt="">
                         </a>
@@ -190,66 +208,70 @@
                 <div class="review">
                     <h3>“</h3>
                     <p class="review_description">“OMG! I cannot believe that I have got a <br> brand new landing page after getting Omega. <br> It was super easy to edit and publish.”</p>
-                    <h4 class="review_author">Diego Morata</h4>
-                    <p class="review_author_role">Web Developer</p>
+                    <div class="review_author">
+                        <h4 class="review_author_name">Diego Morata</h4>
+                        <p class="review_author_role">Web Developer</p>
+                    </div>
                 </div>
                 <div class="review">
                     <h3>“</h3>
                     <p class="review_description">“Simply the best. Better than all the rest. I’d <br> recommend this product to beginners and <br> advanced users.”</p>
-                    <h4 class="review_author">Franklin Hicks</h4>
-                    <p class="review_author_role">Digital Marketer</p>
+                    <div class="review_author">
+                        <h4 class="review_author_name">Franklin Hicks</h4>
+                        <p class="review_author_role">Digital Marketer</p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer_background">
-        <div class="footer _container">
+        <div class="_container">
             <nav class="footer_links">
                 <div class="links">
                     <h4 class="links_topic">Company</h4>
                     <ul class="links_menu">
-                        <li>About us</li>
-                        <li>Contact us</li>
-                        <li>Careers</li>
-                        <li>Press</li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
                     </ul>
                 </div>
                 <div class="links">
                     <h4 class="links_topic">Product</h4>
                     <ul class="links_menu">
-                        <li>Features</li>
-                        <li>Pricing</li>
-                        <li>News</li>
-                        <li>Help desk</li>
-                        <li>Support</li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Support</a></li>
                     </ul>
                 </div>
                 <div class="links">
                     <h4 class="links_topic">Services</h4>
                     <ul class="links_menu">
-                        <li>Digital Marketing</li>
-                        <li>Content Writing</li>
-                        <li>SEO for Business</li>
-                        <li>UI Design</li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Content Writing</a></li>
+                        <li><a href="#">SEO for Business</a></li>
+                        <li><a href="#">UI Design</a></li>
                     </ul>
                 </div>
                 <div class="links">
                     <h4 class="links_topic">Legal</h4>
                     <ul class="links_menu">
-                        <li>Privacy Policy</li>
-                        <li>Terms & Conditions</li>
-                        <li>Return Policy</li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Return Policy</a></li>
                     </ul>
                 </div>
                 <div class="links">
                     <h4 class="links_topic">Contact us</h4>
                     <ul class="links_menu">
-                        <li>support@brainwave.io</li>
-                        <li>+133-394-3439-1435</li>
+                        <li class="links_menu_contact">support@brainwave.io</li>
+                        <li class="links_menu_contact">+133-394-3439-1435</li>
                     </ul>
                 </div>
                 </nav>
-            <div class="_line"></div>
+            <div class="_line footer_line"></div>
             <div class="footer_copyright_socials">
                 <div class="footer_copyright">
                     <p>© 2024 Copyright, All Right Reserved, Made by Sejal_ui_ux with</p>
